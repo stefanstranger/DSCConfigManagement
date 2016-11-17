@@ -1,4 +1,4 @@
-﻿@section scripts {
+@section scripts {
     @Scripts.Render("~/bundles/app")
 }
 
@@ -43,7 +43,7 @@
                             <label for="inputId" class="col-sm-4 control-label">ID</label>
                             <div class="col-sm-10">
                                <!-- <select data-bind="options:authors, optionsText: 'Name', value: newGuid.Id"></select> -->
-                                <input type="number" class="form-control" id="inputId" data-bind="value:Id" />
+                                <input type="number" class="form-control" id="inputId" data-bind="value: newGuid.Id" />
                             </div>
                         </div>
 
